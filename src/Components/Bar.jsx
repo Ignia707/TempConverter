@@ -1,14 +1,27 @@
 // Bar compomnent for navigation bar
-import '../index.css';
+import "../Styles/Bar.css";
+import { Link } from "react-router-dom";
+import React from "react";
 
 export default function Bar(props) {
-    return (
-        <div className='navigation-bar'>
-            <h1 className='app-name'> {props.title} </h1>
-            <div className='nav-link'>
-                <a href='#' className='links'> about </a>
-                <a href='#' className='links'> Github </a>
-            </div>
-        </div>
-    );
-} 
+  return (
+    <div className="navigation-bar">
+      <h1 className="app-name"> {props.title} </h1>
+      <div className="nav-link">
+        <Link to="/about" className="links">
+          {" "}
+          about{" "}
+        </Link>
+        <a
+          href="https://github.com/Ignia707/TempConverter"
+          className="links"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {" "}
+          Github{" "}
+        </a>
+      </div>
+    </div>
+  );
+}

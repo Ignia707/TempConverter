@@ -1,0 +1,29 @@
+.navigation-bar {
+  padding: 5px 20px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.app-name {
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+  margin-left: 20px;
+}
+
+.nav-link {
+  display: flex;
+  gap: 30px;
+  margin-right: 20px;
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+  font-weight: 500;
+}
