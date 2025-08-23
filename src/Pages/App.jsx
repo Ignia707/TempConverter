@@ -1,4 +1,4 @@
-// App component for main page
+// App component for main page rendering
 import "../Styles/App.css";
 import { Route, Routes } from "react-router-dom";
 import About from "./About.jsx";
