@@ -6,7 +6,10 @@ import React from "react";
 export default function Bar(props) {
   return (
     <div className="navigation-bar">
-      <h1 className="app-name"> {props.title} </h1>
+      <Link to="/" className="header">
+        {" "}
+        {props.title}{" "}
+      </Link>
       <div className="nav-link">
         <Link to="/about" className="links">
           {" "}

@@ -1,10 +1,11 @@
 .navigation-bar {
-  padding: 5px 20px;
+  padding: 20px 20px;
   background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 50px;
+  border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -26,4 +27,11 @@
   color: black;
   font-size: 19px;
   font-weight: 500;
+}
+
+.header {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
 }
